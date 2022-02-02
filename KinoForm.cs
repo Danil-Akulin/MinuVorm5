@@ -88,8 +88,9 @@ namespace MinuVorm
 
             if (true)
             {
-            Admin_Form uus_aken = new Admin_Form();
-            this.Hide();
+                login uus_aken = new login();
+                //Admin_Form uus_aken = new Admin_Form();
+                this.Hide();
             uus_aken.StartPosition = FormStartPosition.CenterScreen;
             uus_aken.ShowDialog();
             }

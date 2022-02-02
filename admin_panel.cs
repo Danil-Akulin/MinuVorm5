@@ -167,12 +167,7 @@ namespace MinuVorm
             this.Controls.Add(poster_txt);
             this.Controls.Add(poster);*/
 
-
         }
-
-
-
-
             public void Data()
         {
             connect_to_DB.Open();
